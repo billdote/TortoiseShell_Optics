@@ -71,7 +71,7 @@ ul li {
   text-align: center;
   margin: 3rem;
   height: 8rem;
-  width: 6rem;
+  width: 5rem;
 }
 .service img {
   width: 5rem;
@@ -82,6 +82,9 @@ ul li {
   width: 35%;
   margin-right: 5%;
   margin-bottom: 4rem;
+}
+.info p {
+  padding: 1rem 0;
 }
 /*Footer Section*/
 footer {
