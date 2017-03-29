@@ -96,6 +96,14 @@ header .flex {
   display: flex;
   justify-content: center;
 }
+@media only screen and (max-width: 560px) {
+  .supporting {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 3rem;
+  }
+}
 /*Service Sections*/
 .service {
   display: flex;
