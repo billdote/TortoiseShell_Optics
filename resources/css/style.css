@@ -45,7 +45,12 @@ ul li {
   display: inline;
   padding: 0 1rem;
 }
-
+/*Supporting Sections*/
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+/*Service Sections*/
 .service {
   display: flex;
   flex-direction: column;
@@ -55,4 +60,8 @@ ul li {
   margin: 3rem;
   height: 8rem;
   width: 6rem;
+}
+.service img {
+  width: 5rem;
+  margin-bottom: 1rem;
 }
