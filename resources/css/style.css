@@ -52,6 +52,9 @@ ul li {
   display: inline;
   padding: 0 1rem;
 }
+header .flex {
+  justify-content: flex-end;
+}
 .main-banner {
   background-color: white;
   padding: 0.75rem 5rem;
@@ -106,7 +109,7 @@ footer {
   display: flex;
   align-items: center;
 }
-.footer img {
+footer img {
   height: 1.5rem;
   margin-left: 3rem;
   margin-right: 1rem;
