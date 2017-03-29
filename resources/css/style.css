@@ -23,6 +23,7 @@ header {
 h1 {
   font-size: 2rem;
   font-weight: bold;
+  margin: 0.67rem 0;
 }
 nav {
   background-color: cadetblue;
@@ -41,9 +42,20 @@ nav img {
   margin-left: 2rem;
   margin-right: 1rem;
 }
+ul {
+  margin-right: 1rem;
+}
 ul li {
   display: inline;
   padding: 0 1rem;
+}
+.main-banner {
+  background-color: white;
+  padding: 0.75rem 5rem;
+  display: inline-block;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  line-height: 2.4rem;
 }
 /*Supporting Sections*/
 .supporting {
@@ -79,6 +91,7 @@ footer {
   align-items: center;
 }
 .footer img {
+  height: 1.5rem;
   margin-left: 3rem;
   margin-right: 1rem;
 }
