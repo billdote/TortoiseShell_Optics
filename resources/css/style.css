@@ -130,6 +130,20 @@ header .flex {
   color: white;
   max-width: 10rem;
 }
+@media only screen and (max-width: 560px) {
+  .info {
+    width: auto;
+  }
+  .info .title {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+  }
+  .info p {
+    padding: 1rem;
+    font-size: 0.77rem;
+  }
+}
 /*Footer Section*/
 footer {
   background-color: azure;
