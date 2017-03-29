@@ -114,6 +114,13 @@ header .flex {
 .service img.paper-icon {
   width: 3.5rem;
 }
+@media only screen and (max-width: 560px) {
+  .service {
+    height: auto;
+    margin: 0.77em;
+    font-size: 0.77em;
+  }
+}
 /*Information Section*/
 .info {
   width: 35%;
