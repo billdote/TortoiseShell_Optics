@@ -52,6 +52,9 @@ ul li {
   display: inline;
   padding: 0 1rem;
 }
+.truncated-menu {
+  display: none;
+}
 header .flex {
   justify-content: flex-end;
 }
@@ -83,6 +86,9 @@ header .flex {
 @media only screen and (max-width: 700px) {
   .menu ul {
     display: none;
+  }
+  .menu ul.truncated-menu {
+    display: block;
   }
 }
 /*Supporting Sections*/
