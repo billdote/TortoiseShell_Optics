@@ -142,3 +142,11 @@ footer img {
   margin-left: 3rem;
   margin-right: 1rem;
 }
+@media only screen and (max-width: 560px) {
+  footer {
+    justify-content: center;
+  }
+  footer div {
+    display: none;
+  }
+}
